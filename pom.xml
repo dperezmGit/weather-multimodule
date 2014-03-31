@@ -36,6 +36,11 @@
 						<url>http://localhost:8080/manager</url>
 					</configuration>
 				</plugin>
+				<plugin>
+			        <groupId>org.apache.maven.plugins</groupId>
+			        <artifactId>maven-release-plugin</artifactId>
+			        <version>2.5</version>
+			      </plugin>
 			</plugins>
 		</pluginManagement>
 		<plugins>
@@ -131,8 +136,8 @@
 		</plugins>
 	</reporting>
 	<scm>
-		<connection>scm:git:git@github.com:dperezmGit/repository1.git</connection>
-		<url>scm:git:git@github.com:dperezmGit/repository1.git</url>
-		<developerConnection>scm:git:git@github.com:dperezmGit/repository1.git</developerConnection>
+		<connection>scm:git:git@github.com:dperezmGit/weather-multimodule.git</connection>
+		<url>scm:git:git@github.com:dperezmGit/weather-multimodule.git</url>
+		<developerConnection>scm:git:git@github.com:dperezmGit/weather-multimodule.git</developerConnection>
     </scm>
 </project>
